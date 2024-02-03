@@ -7,7 +7,6 @@ const BlogSchema = new Schema({
   words: { type: Number, required: true },
   time: { type: Number, required: true },
   content: { type: String, required: true },
-  featuredImage: { type: Buffer },
   createdAt: { type: Date, default: Date.now() },
   updatedAt: { type: Date, default: Date.now() },
 });
